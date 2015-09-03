@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A269CD87-5706-4255-A1B4-46B199ECD44E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>vansample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6BE3369C1F17CEDE501C27E0293737A0E62A21D</key>
+		<string>https://github.com/moloco/VANSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/vansample/vansample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6BE3369C1F17CEDE501C27E0293737A0E62A21D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/moloco/VANSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6BE3369C1F17CEDE501C27E0293737A0E62A21D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6BE3369C1F17CEDE501C27E0293737A0E62A21D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VANSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
