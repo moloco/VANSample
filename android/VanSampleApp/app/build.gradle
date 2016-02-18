@@ -20,7 +20,7 @@ android {
 }
 
 repositories {
-    maven { url 'https://artifacts.moloco.co/artifactory/libs-release-local' }
+    maven { url 'https://artifacts.adsmoloco.com/artifactory/libs-release-local' }
 }
 
 dependencies {
@@ -31,5 +31,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:7.5.0'
     compile 'com.google.android.gms:play-services-ads:7.5.0'
     compile 'com.mcxiaoke.volley:library:1.0.16'
-    compile 'com.moloco.sdk:van-sdk:1.0.0@aar'
+    compile 'com.moloco.sdk:van-sdk:1.0.2@aar'
 }
