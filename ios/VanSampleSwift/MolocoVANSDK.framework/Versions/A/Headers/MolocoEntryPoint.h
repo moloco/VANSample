@@ -5,7 +5,7 @@
 
 @protocol MolocoApiCallback <NSObject>
 
-- (void)handleResponse:(NSString *)response;
+- (void)handleVANResponse:(NSString *)response;
 
 @end
 

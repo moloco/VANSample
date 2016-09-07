@@ -34,7 +34,7 @@ class ViewController: UIViewController, MolocoApiCallback {
         MolocoEntryPoint.sendEvent("ClickEvent", dataMap: dataMap as [NSObject : AnyObject], delegate: self)
     }
 
-    func handleResponse(response: String!) {
+    func handleVANResponse(response: String!) {
         // Handle response from VAN server.
         textView.text = "Response = \(response)"
         

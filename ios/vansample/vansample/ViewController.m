@@ -21,7 +21,7 @@
 	// Dispose of any resources that can be recreated.
 }
 
-- (void)handleResponse:(NSString *)response {
+- (void)handleVANResponse:(NSString *)response {
     // Handle response from VAN server.
 	NSLog(@"Response: %@",response);
 	[textView setText:[NSString stringWithFormat:@"Response: %@", response]];
