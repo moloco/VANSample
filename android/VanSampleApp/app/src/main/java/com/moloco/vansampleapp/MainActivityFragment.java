@@ -44,8 +44,8 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
             case R.id.send_button: {
                     HashMap<String, Object> dataMap = new HashMap<String, Object>();
                     dataMap.put("username", "moloco");
-                    dataMap.put("latitude", 0.123923f);
-                    dataMap.put("longitude", 0.5346123f);
+                    dataMap.put("latitude", "0.123923");
+                    dataMap.put("longitude", "0.5346123");
                     MolocoEntryPoint.sendEvent("clickEvent", dataMap, MainActivityFragment.this);
                 }
                 break;

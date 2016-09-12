@@ -34,9 +34,9 @@
 -(IBAction)clickSendBtn:(id)sender {
 	NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
 	[dict setValue:@"moloco" forKey:@"user"];
-	[dict setValue:[NSNumber numberWithInt:31] forKey:@"age"];
-	[dict setValue:[NSNumber numberWithFloat:0.124313f] forKey:@"latitude"];
-	[dict setValue:[NSNumber numberWithFloat:0.717662f] forKey:@"longitude"];
+	[dict setValue:@"31" forKey:@"age"];
+	[dict setValue:@"0.124313" forKey:@"latitude"];
+	[dict setValue:@"0.717662" forKey:@"longitude"];
 	[MolocoEntryPoint sendEvent:@"ClickEvent" dataMap:dict delegate:self];
 }
 

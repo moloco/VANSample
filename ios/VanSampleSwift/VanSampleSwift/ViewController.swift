@@ -27,9 +27,9 @@ class ViewController: UIViewController, MolocoApiCallback {
     @IBAction func sendEvent(sender: UIButton) {
         let dataMap: NSMutableDictionary = [
             "user": "moloco",
-            "age": 31,
-            "latitude": 0.124313,
-            "longitude": 0.717662
+            "age": "31",
+            "latitude": "0.124313",
+            "longitude": "0.717662"
         ]
         MolocoEntryPoint.sendEvent("ClickEvent", dataMap: dataMap as [NSObject : AnyObject], delegate: self)
     }
