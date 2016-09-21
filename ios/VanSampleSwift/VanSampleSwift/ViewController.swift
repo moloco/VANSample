@@ -24,23 +24,23 @@ class ViewController: UIViewController, MolocoApiCallback {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func sendEvent(sender: UIButton) {
+    @IBAction func sendEvent(_ sender: UIButton) {
         let dataMap: NSMutableDictionary = [
             "user": "moloco",
             "age": "31",
             "latitude": "0.124313",
             "longitude": "0.717662"
         ]
-        MolocoEntryPoint.sendEvent("ClickEvent", dataMap: dataMap as [NSObject : AnyObject], delegate: self)
+        MolocoEntryPoint.sendEvent("ClickEvent", dataMap: dataMap as [NSObject: AnyObject], delegate: self)
     }
 
-    func handleVANResponse(response: String!) {
+    func handleVANResponse(_ response: String!) {
         // Handle response from VAN server.
         textView.text = "Response = \(response)"
         
         // You can also access device and user information that VAN collected.
-        let userInfo = UserInfo.sharedInstance()
-        print("Response = \(response)\nIDFA = \(userInfo.idfa)\nOS = \(userInfo.os)\nCarrier = \(userInfo.carrier)\n")
+        let userInfo = UserInfo.sharedInstance() as AnyObject?
+        print("Response = \(response)\nIDFA = \(userInfo?.idfa)\nOS = \(userInfo?.os)\nCarrier = \(userInfo?.carrier)\n")
     }
 
 }
