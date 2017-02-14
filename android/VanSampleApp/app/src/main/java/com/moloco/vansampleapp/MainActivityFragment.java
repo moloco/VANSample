@@ -61,10 +61,9 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
         Log.d("com.moloco.vansample", String.format("Result for click event : %s", jsonObject));
 
         Log.d("com.moloco.vansample", String.format(
-                "Device Info\nIDFA : %s\nModel : %s\nLocation : %s\nCarrier : %s",
+                "Device Info\nIDFA : %s\nModel : %s\nCarrier : %s",
                 MolocoContext.INSTANCE.getAdvertisingId(),
                 MolocoContext.INSTANCE.getDeviceInfo(),
-                MolocoContext.INSTANCE.getLocation(),
                 MolocoContext.INSTANCE.getCarrier()
         ));
     }
