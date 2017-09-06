@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VanSampleApp</string>
+    <string name="title">Response:</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_send">Send</string>
+    <string name="custom_btn_send">Custom Send</string>
+</resources>
