@@ -32,5 +32,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:11.8.0'
     compile 'com.android.installreferrer:installreferrer:1.0'
     compile 'com.android.volley:volley:1.0.0'
-    compile 'com.moloco.sdk:van-sdk:2.1.2'
+    compile 'com.moloco.sdk:van-sdk:2.1.3'
 }
